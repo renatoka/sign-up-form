@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+#create-account:hover {
+    background-color: rgb(28, 107, 49);
+}
+
+label {
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+#paragraph1 {
+    font-size: 35px;
+}
+
+#log-in {
+    color: green;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left-side {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-part {
+    background-color: rgba(0, 0, 0, .05);
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding: 35px;
+}
+
+.title span {
+    display: block;
+}
+
+.logo-section {
+    position: absolute;
+    top: 150px;
+    width: 687px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+}
+
+.logo-section h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+
+.form-part {
+    height: 350px;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-part {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.left-forms,
+.right-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-forms input {
+    margin-bottom: 30px;
+}
+
+.right-forms input {
+    margin-bottom: 30px;
+}
+
+#create-account {
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    border: solid darkolivegreen;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-part {
+    padding: 50px;
+    height: 100%;
+}
